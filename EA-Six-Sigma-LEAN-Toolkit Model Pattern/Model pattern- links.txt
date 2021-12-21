@@ -1,0 +1,8 @@
+insert the following section before "<RTFTemplates>" in the MDG file.  Check to make sure your link paths below are where you put the MDG folder.
+
+<ModelTemplates>
+	<Model name="Six Sigma LEAN Toolkit" description="" location="C:\Projects\Github version control\EA-Six-Sigma-LEAN-Toolkit-MDG\EA-Six-Sigma-LEAN-Toolkit Model Pattern\Six Sigma Lean Model Pattern.xml" default="yes" icon="34" filter="Common"/>
+        <Model name="Root Cause Analysis" description="" location="C:\Projects\Github version control\EA-Six-Sigma-LEAN-Toolkit-MDG\EA-Six-Sigma-LEAN-Toolkit Model Pattern\Root Cause Analysis.xml" default="yes" icon="34" filter="Common"/>
+        <Model name="SWOT" description="" location="C:\Projects\Github version control\EA-Six-Sigma-LEAN-Toolkit-MDG\EA-Six-Sigma-LEAN-Toolkit Model Pattern\SWOT Analysis.xml" default="yes" icon="34" filter="Common"/>
+	<Model name="Pain Point Model Pattern" description="" location="C:\Projects\Github version control\EA-Six-Sigma-LEAN-Toolkit-MDG\EA-Six-Sigma-LEAN-Toolkit Model Pattern\Pain Point Model Pattern.xml" default="yes" icon="34" filter="Common"/>
+</ModelTemplates>

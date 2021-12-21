@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="F0B1C907-1" name="Six Sigma LEAN Tool Kit" version="0.0.5" notes="This is a Six Sigma LEAN Toolkit that is compiled to provide a method for using the toolkit and then rapid report generation.  "/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Bottom Bone" notes="" cx="0" cy="0" bgcolor="15453831" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAIajVFKuZ5ONtwAAANIBAAAHABEAc3RyLmRhdFVUDQAH43AxYONwMWDjcDFg
+jY/RCoJAEEXva0H/ID0ZBBoRFNFrvxFbZkpqoeJD0b93dosSKpJlZ3fnnjs7EyiQp7VSVUq0
+1UmF9hqTmypEm7gYaq6B+m5bzugM5SnnluKw+auLPTXakM3IH1BWGmoHW6gmlryWTy7pyEW8
+Y35NdeHmu45COnycoxdX4TQ4a3ozxAT2rQasnOkaatScvqvR9ttO7Oxd1IXTbfxNzP4QVm+r
+dvboa+8xvoxlHGHnLKlwxPFJ33QHUEsBAhcLFAAAAAgAhqNUUq5nk423AAAA0gEAAAcACQAA
+AAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB+NwMWBQSwUGAAAAAAEAAQA+AAAA7QAAAAAA
+</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Business Goal" metatype="Business Goal" notes="" cx="0" cy="0" bgcolor="16777120" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Cause" metatype="Cause" notes="" cx="130" cy="30" bgcolor="14474460" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ContributionState" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Cause Category" metatype="Cause Category" notes="" cx="125" cy="38" bgcolor="10551295" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Cause Contributer" metatype="CauseContributer" notes="" cx="145" cy="32" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ContributionState" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Central Topic" metatype="Central Topic" notes="" cx="0" cy="0" bgcolor="16771583" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Concern" metatype="Concern" notes="" cx="0" cy="0" bgcolor="15658671" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Delta" metatype="Delta" notes="" cx="0" cy="0" bgcolor="12829686" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Effect" metatype="Effect" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAMxqVVLk4r3rNwAAAHYAAAAHABEAc3RyLmRhdFVUDQAHjl4yYI5eMmCOXjJg
+y2FIZEhiSGXIYVBgyGXIZEgBwhwgP4khn6EECPOBojlwNbwMXAzVYLIWTIIwQhbVBJDeAhx6
+AVBLAQIXCxQAAAAIAMxqVVLk4r3rNwAAAHYAAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0
+VVQFAAeOXjJgUEsFBgAAAAABAAEAPgAAAG0AAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Realisation">
+						<Property name="_lineStyle" value="bezier"/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="EffectDirection" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Gap" metatype="Gap" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Hypothesis" metatype="Hypothesis" notes="" cx="145" cy="50" bgcolor="16701121" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Hypotethis Status" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Initive" metatype="Initive" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Main Topic" metatype="Main Topic" notes="" cx="0" cy="0" bgcolor="15335423" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Market Theme" metatype="Market Theme" notes="" cx="0" cy="0" bgcolor="16705236" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Milestone" metatype="Milestone" notes="" cx="0" cy="0" bgcolor="16771561" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Event"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Observation" metatype="Observation" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="ObservationContribution" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Opportunity" metatype="Opportunity" notes="" cx="160" cy="50" bgcolor="16777120" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Owns" metatype="Owns" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Association"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Pain" metatype="Pain" notes="" cx="0" cy="0" bgcolor="7656189" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Plus" metatype="Plus" notes="" cx="0" cy="0" bgcolor="12320484" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Problem" metatype="Problem" notes="" cx="0" cy="0" bgcolor="16710894" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAHZqlFNM2cMwPQIAAIgJAAAHABEAc3RyLmRhdFVUDQAH/4LAYf+CwGH/gsBh
+tVbLTsNADPS1SPxD1V6K1AOUlxDiyBfwAaj0RURbqjQFAeLfmbHrbrLpEjhUKM5uMh5PbK/L
+Wp5lKCuZSFsWWGWylGM5ki+1LZnj2Ye8ykYK/H0o8k468oRnuYyxy7G73aKXeLpWxjFW70AW
+eL8ByhFmM5lKT3FrMObAkjfXCD3w5diNsBuCcQYNE2XmvoDvK3Yd6eM6xXWCP2N1zS3VNQV3
+Jp9Y9eQGyL5cyCWwrqSF92Rk1JUyPwNZfr9ApDf4F7j3ZADvvpyB6bSCmmvOHHWdQDEOv4iY
+S1XDy3DhXvb23W/RTFM6ksexiM7rXr6qq2W+x4msTKFgrn1BDHPI+r3AZx/+e3ufwGMN21Qp
+aqGm60hRU62oYaOKvHfC18dZHuzsYb/Z7KF7nWeNmjY4k3b2yE/mDLz0f1SVRLF3Zls+8tY1
+p+qUjuL6/xMlzbbEeoG1eY80G4Xmq8xjNni2kyri72AF2HFk5GoMjgmwM9wLzCt2Ray2HCeV
+0//GYS/GcerRPBsx+xviD3UWzIDhPOZ5X0mYxC2wxJhqNgOSWvkVPDMd6e6idvfUziwvnlzm
+IpfQqW3tnRz6mCfT7aqJzLYKggd1cZ4FPWYPe2qaun3f5Oc0Tk9im9Uxpj71yxPXJ3zdEpWO
+ZRwxJp77hrKogbVqq3r/VmE+WaAa/KXPtJuIba7yg9yXqtxU3wzP65Gspv4/xb7KWk2Zr5VW
+1nJxUbJXtblfxfO9Y71OsU+1P84Vw0yna8bfsxhTzvcPUEsBAhcLFAAAAAgAdmqUU0zZwzA9
+AgAAiAkAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5kYXRVVAUAB/+CwGFQSwUGAAAAAAEAAQA+
+AAAAcwIAAAAA</Image>
+				<AppliesTo>
+					<Apply type="Package">
+						<Property name="URI" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Responsibility" metatype="Responsibility" notes="" cx="0" cy="0" bgcolor="16748574" fontcolor="16775416" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Stakeholder" metatype="Stakeholder" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Actor"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Stakeholder Need" metatype="Stakeholder Need" notes="" cx="0" cy="0" bgcolor="12648352" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Requirement"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Steakholder Goal" metatype="Steakholder Goal" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="UseCase"/>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Strength" metatype="Strength" notes="" cx="160" cy="50" bgcolor="10551232" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Subtopic" metatype="Subtopic" notes="" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Technical Objective" metatype="Technical Objective" notes="" cx="0" cy="0" bgcolor="15335423" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Threat" metatype="Threat" notes="" cx="160" cy="50" bgcolor="10526975" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Top Bone" notes="" cx="0" cy="0" bgcolor="16436871" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<Image type="EAShapeScript 1.0" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">UEsDBBQAAAAIAJilVFJwnvdYygAAAOgBAAAHABEAc3RyLmRhdFVUDQAHrHQxYKx0MWCsdDFg
+jVDbCoJAED2vBf6D9FRgZERoRE9B0FOfEEtqSl5Cq4eif+/MZl4wIoYdZudcdnYM9DFhmNhg
+jT22SHHGFRfsdH7XFvEZbPKmOttwYVApp0AIRZ5PTsIqooP0Hzr3cKOrQsz+kcgKAxzITenq
+I+dtWfLCP3ke7wFfjXBnNcSC01hwmEcVp6BKUSXzK+aQvBpNkHEqn/2s0jfVMkPawOc/cVGL
+xwc3y+iyXDrVLrL1Nmest9t+Szbgff1FQG3MUJohP87pcqKiy37iBVBLAQIXCxQAAAAIAJil
+VFJwnvdYygAAAOgBAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAesdDFgUEsFBgAA
+AAABAAEAPgAAAAABAAAAAA==</Image>
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Topic" metatype="Topic" notes="" cx="0" cy="0" bgcolor="16777193" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Vision" metatype="Vision" notes="" cx="0" cy="0" bgcolor="15335149" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Weakness" metatype="Weakness" notes="" cx="160" cy="50" bgcolor="10535167" fontcolor="-1" bordercolor="-1" borderwidth="1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

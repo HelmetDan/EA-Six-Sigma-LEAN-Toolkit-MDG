@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="FC306543-3" name="Six Sigma LEAN Tool Kit" version="0.0.5" notes="Six Sigma LEAN Tool Kit"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Fishbone" notes="This is a a fishbone diagram" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Custom">
+						<Property name="alias" value="Fishbone"/>
+						<Property name="diagramID" value="Fishbone"/>
+						<Property name="toolbox" value="Six Sigma LEAN Tool Kit"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Observation" notes="This is an observation diagram used to document complex interactions." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Logical">
+						<Property name="alias" value="Observation "/>
+						<Property name="diagramID" value="RCA Observation"/>
+						<Property name="toolbox" value="Six Sigma LEAN Tool Kit"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Stakeholder Analysis" notes="Stakeholder Analysis " cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Use Case">
+						<Property name="alias" value="Stakeholder"/>
+						<Property name="toolbox" value="Six Sigma LEAN Tool Kit"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="SWOT Analysis" notes="This is a SWOT Analysis Diagram that is created for product, team, or project.  " cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Custom">
+						<Property name="alias" value="SWOT Analysis"/>
+						<Property name="toolbox" value="Six Sigma LEAN Tool Kit"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+			<Stereotype name="Vision " notes="This is for defining vision" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Diagram_Custom">
+						<Property name="alias" value="Vision Canvas"/>
+						<Property name="toolbox" value="Six Sigma LEAN Tool Kit"/>
+					</Apply>
+				</AppliesTo>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>

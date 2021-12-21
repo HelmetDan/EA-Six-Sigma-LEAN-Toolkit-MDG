@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2021-05-17 20:41:50">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_4D737BB0_0D23_42dc_9E44_8A52CE2507CB">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="SWOT" xmi.id="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="documentation" value="SWOT Analysis is a simple but useful framework for analyzing your organization's strengths, weaknesses, opportunities, and threats. It helps you to build on what you do well, to address what you're lacking, to minimize risks, and to take the greatest possible advantage of chances&#xA;&#xA;A SWOT analysis is a way of understanding the Strengths and Weaknesses of your schools; the Opportunities that might be available; and the Threats that they might face. You can conduct a SWOT analysis with a variety of school stakeholders (parents, board members, staff and students etc.) but, generally, you would do this with management staff and board members.&#xA;You use a SWOT analysis to identify the critical issues for your organization (the weaknesses and threats); and to explore strategies for improvement. Your strengths allow you to craft a strategy that helps distinguish you from your competitors, opportunities provide information that allows you to exploit conditions within your school or area, and information on weaknesses and threats helps you to manage and/or eliminate things that may endanger your school operations.&#xA;&#xA;If you use a SWOT analysis as a serious tool to inform your strategic direction then the analysis of each of the SWOT areas needs to be rigorous and based on accurate, verifiable statements. That is, answers to questions should rely on hard data rather than opinion. For example, 'a strength of the school is our academic results' is not precise, whereas 87% of our students perform above state benchmarks' is.&#xA;It is also important when using SWOT analysis as a serious tool that you ruthlessly prune items identified so that you spend most of your time in analyzing significant strengths, weaknesses, opportunities and threats, rather than those things that do not seriously impact on the viability of the school."/>
+						<UML:TaggedValue tag="parent" value="EAPK_266EF324_F8DE_4346_A422_65188417F19B"/>
+						<UML:TaggedValue tag="created" value="2021-02-06 19:15:56"/>
+						<UML:TaggedValue tag="modified" value="2021-05-17 20:32:32"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="version" value="1.0"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Dan Menoher"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="0"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Comment xmi.id="EAID_1824ECE6_D46C_4cf9_A4DA_A162F97F36CC" visibility="public" namespace="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="The main Goal&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;objective 1&lt;/li&gt;&#xA;	&lt;li&gt;objective 2&lt;/li&gt;&#xA;	&lt;li&gt;objective 3&lt;/li&gt;&#xA;&lt;/ol&gt;"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="date_created" value="2021-02-07 12:50:47"/>
+								<UML:TaggedValue tag="date_modified" value="2021-02-07 20:18:28"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SWOT"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="954"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Comment xmi.id="EAID_1F381CF9_AA71_4de7_BBD3_969EF41C1463" visibility="public" namespace="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="SWOT Analysis"/>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Text"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="date_created" value="2021-02-07 12:45:14"/>
+								<UML:TaggedValue tag="date_modified" value="2021-02-07 12:45:22"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SWOT"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="953"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Collaboration xmi.id="EAID_4D737BB0_0D23_42dc_9E44_8A52CE2507CB_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Threats" xmi.id="EAID_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Threats:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;Are there any threats to the school community that might affect viability (e.g. financial, infrastructure,&lt;/li&gt;&#xA;	&lt;li&gt;things your competition is doing)?&lt;/li&gt;&#xA;	&lt;li&gt;What dangers might the school be exposed to because of changes to government policy?&lt;/li&gt;&#xA;	&lt;li&gt;What risks/ obstacles do you face?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Identifying threats helps you to manage and/or eliminate things that may endanger your school operations."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 13:19:20"/>
+										<UML:TaggedValue tag="date_modified" value="2021-02-07 20:53:54"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C"/>
+										<UML:TaggedValue tag="package_name" value="SWOT"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="89"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Strengths" xmi.id="EAID_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Strengths:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;What advantages does your school have?&lt;/li&gt;&#xA;	&lt;li&gt;What does your school do better than other schools?&lt;/li&gt;&#xA;	&lt;li&gt;What makes your school unique'?&lt;/li&gt;&#xA;	&lt;li&gt;What does your school community see as your strengths?&lt;/li&gt;&#xA;	&lt;li&gt;What do staff members see as your strengths?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Consider your strengths from both internal and external perspective - and be honest and realistic. It is useful to&#xA;think about your strengths in relation to other schools. If you do exactly what the schools in your area do, even if&#xA;what you do is very good, it is not a strength but rather a necessity for you to compete with other schools. Your&#xA;strengths are what give you a competitive advantage."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 13:18:59"/>
+										<UML:TaggedValue tag="date_modified" value="2021-02-07 20:51:21"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="package_name" value="SWOT"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="87"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Opportunity" xmi.id="EAID_B46F6535_2632_4e5b_A759_50E348560090" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Opportunities:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;What strengths can you exploit to increase your competitive advantage?&lt;/li&gt;&#xA;	&lt;li&gt;What is happening in education that might be a good opportunity for the school?&lt;/li&gt;&#xA;	&lt;li&gt;What opportunities might technology give us?&lt;/li&gt;&#xA;	&lt;li&gt;What are the unique elements in our community that might provide opportunities?&lt;/li&gt;&#xA;	&lt;li&gt;What is missing from the school! community that might be an opportunity for US?&lt;/li&gt;&#xA;	&lt;li&gt;What weaknesses might we eliminate to create opportunities?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Identifying opportunities provides information that allows you exploit conditions within your school or community."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 13:19:50"/>
+										<UML:TaggedValue tag="date_modified" value="2021-02-07 20:52:56"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B46F6535_2632_4e5b_A759_50E348560090"/>
+										<UML:TaggedValue tag="package_name" value="SWOT"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="90"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Weaknesses" xmi.id="EAID_FB56388A_99C9_46a8_9723_D4C845194316" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Weaknesses:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;What are the disadvantages your school has compared with other schools?&lt;/li&gt;&#xA;	&lt;li&gt;What could be improved?&lt;/li&gt;&#xA;	&lt;li&gt;What are people within your community likely to see as weaknesses?&lt;/li&gt;&#xA;	&lt;li&gt;What are people within your school likely to see as weaknesses?&lt;/li&gt;&#xA;	&lt;li&gt;What factors lose you enrolments'?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Information about your weaknesses helps you to manage and/or eliminate things that may endanger your school&#xA;operations. Again, consider this from internal and external perspectives. And, again, be honest and realistic. In&#xA;particular, consider your school against your competitors. Are your competitors getting more enrolments/losing&#xA;fewer students? In which areas do they appear to be doing better than you? Why might this be the case?"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 13:19:13"/>
+										<UML:TaggedValue tag="date_modified" value="2021-02-07 20:52:08"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="package_name" value="SWOT"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="88"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Comment xmi.id="EAID_FE7E18C3_6D95_4ec3_9634_154FFDEC9183" visibility="public" namespace="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="isSpecification" value="false"/>
+								<UML:TaggedValue tag="ea_stype" value="Note"/>
+								<UML:TaggedValue tag="ea_ntype" value="0"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isActive" value="false"/>
+								<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="date_created" value="2021-02-07 12:44:47"/>
+								<UML:TaggedValue tag="date_modified" value="2021-02-07 12:44:47"/>
+								<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+								<UML:TaggedValue tag="tagged" value="0"/>
+								<UML:TaggedValue tag="package_name" value="SWOT"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="tpos" value="0"/>
+								<UML:TaggedValue tag="ea_localid" value="952"/>
+								<UML:TaggedValue tag="ea_eleType" value="element"/>
+								<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+							</UML:ModelElement.taggedValue>
+						</UML:Comment>
+						<UML:Package name="Strengths" xmi.id="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Strengths:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;What advantages does your school have?&lt;/li&gt;&#xA;	&lt;li&gt;What does your school do better than other schools?&lt;/li&gt;&#xA;	&lt;li&gt;What makes your school unique'?&lt;/li&gt;&#xA;	&lt;li&gt;What does your school community see as your strengths?&lt;/li&gt;&#xA;	&lt;li&gt;What do staff members see as your strengths?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Consider your strengths from both internal and external perspective - and be honest and realistic. It is useful to&#xA;think about your strengths in relation to other schools. If you do exactly what the schools in your area do, even if&#xA;what you do is very good, it is not a strength but rather a necessity for you to compete with other schools. Your&#xA;strengths are what give you a competitive advantage."/>
+								<UML:TaggedValue tag="parent" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="created" value="2021-02-07 13:18:59"/>
+								<UML:TaggedValue tag="modified" value="2021-02-07 20:51:21"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Strength9" xmi.id="EAID_1C565A49_464A_45ef_827E_C5CD1D6DC811" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:54"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:14"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="989"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0C7FBCA2-4977-4f99-A3F6-82408918E1E8}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={1C565A49-464A-45ef-827E-C5CD1D6DC811}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength1" xmi.id="EAID_34EE109F_EBF8_49ab_A1E8_4C426011F392" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:28:45"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:03"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="974"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CBDF3F31-0773-4120-804F-59B0A4BCD7F7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={34EE109F-EBF8-49ab-A1E8-4C426011F392}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength6" xmi.id="EAID_405D0CB6_7A35_4a29_87DB_7058A51B5C0A" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:46"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:10"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="986"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={BC913B13-F30B-4295-8A5B-42676CCCF25E}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={405D0CB6-7A35-4a29-87DB-7058A51B5C0A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength7" xmi.id="EAID_78CB6509_3EED_476e_8BC2_6C16D262EB26" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:48"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:11"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="987"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3B626622-489D-40c9-8358-1E863CD775D7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={78CB6509-3EED-476e-8BC2-6C16D262EB26}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength2" xmi.id="EAID_7E688977_F05A_4988_B68C_40AD680417E0" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:28:49"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:06"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="975"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FD2D1D68-1EB0-4e13-90A2-D2931B93390D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={7E688977-F05A-4988-B68C-40AD680417E0}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength3" xmi.id="EAID_85013C79_DE07_49fc_B4F0_9B1258AF355A" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:16"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:07"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="983"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F066DC34-E477-414f-8CFD-6D2DAB84A129}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={85013C79-DE07-49fc-B4F0-9B1258AF355A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength5" xmi.id="EAID_95C3E62E_96D4_49b9_8A8D_C22235B4D1FF" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:27"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:08"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="985"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4B27FBBF-A0DC-400d-A396-CA3B410F66E7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={95C3E62E-96D4-49b9-8A8D-C22235B4D1FF}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength4" xmi.id="EAID_A9210D8D_F91B_48ec_A11B_4B2C39CD834D" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:24"/>
+										<UML:TaggedValue tag="date_modified" value="2021-02-07 20:43:53"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="984"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={3A12C3BC-6178-4352-8BF4-CB93AD0B10DE}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={A9210D8D-F91B-48ec-A11B-4B2C39CD834D}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength8" xmi.id="EAID_CDDF78FD_04FE_4854_8CCD_65300199FA6E" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:50"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:13"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="988"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={C6E7B544-AAFD-451a-82D0-B17E95182336}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={CDDF78FD-04FE-4854-8CCD-65300199FA6E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Strength10" xmi.id="EAID_F1B4830C_ED8B_4f37_B062_310F34D83AC3" visibility="public" namespace="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Strength"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:56"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:19"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Strengths"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Strength"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="990"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={81384063-1E0F-4f6a-85F3-7F24F941F594}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Strength;FQName=Six Sigma LEAN Tool Kit::Strength;@ENDSTEREO;$DES;$CLT={F1B4830C-ED8B-4f37-B062-310F34D83AC3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Weaknesses" xmi.id="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Weaknesses:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;What are the disadvantages your school has compared with other schools?&lt;/li&gt;&#xA;	&lt;li&gt;What could be improved?&lt;/li&gt;&#xA;	&lt;li&gt;What are people within your community likely to see as weaknesses?&lt;/li&gt;&#xA;	&lt;li&gt;What are people within your school likely to see as weaknesses?&lt;/li&gt;&#xA;	&lt;li&gt;What factors lose you enrolments'?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Information about your weaknesses helps you to manage and/or eliminate things that may endanger your school&#xA;operations. Again, consider this from internal and external perspectives. And, again, be honest and realistic. In&#xA;particular, consider your school against your competitors. Are your competitors getting more enrolments/losing&#xA;fewer students? In which areas do they appear to be doing better than you? Why might this be the case?"/>
+								<UML:TaggedValue tag="parent" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="created" value="2021-02-07 13:19:13"/>
+								<UML:TaggedValue tag="modified" value="2021-02-07 20:52:08"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Weakness3" xmi.id="EAID_00C9360F_FA1D_411c_87F2_6843FABC420E" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:32:49"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:28"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="18"/>
+										<UML:TaggedValue tag="ea_localid" value="993"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={8093FF6E-6F51-4108-AEF6-8F552D980AFB}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={00C9360F-FA1D-411c-87F2-6843FABC420E}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness7" xmi.id="EAID_41E02A51_2860_4e70_A35F_0FD6CD029D05" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:32:58"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:34"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="22"/>
+										<UML:TaggedValue tag="ea_localid" value="997"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={2BB5412E-74F2-4e43-B002-83644FED1838}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={41E02A51-2860-4e70-A35F-0FD6CD029D05}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness4" xmi.id="EAID_4F410CBB_C297_45ef_A940_C0C50EE0C870" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:32:51"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:30"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="994"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={F273001D-EA04-4f44-AB00-361D5E55C0D4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={4F410CBB-C297-45ef-A940-C0C50EE0C870}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness6" xmi.id="EAID_67E4076B_DE41_41ca_B7F5_CF9518146069" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:32:56"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:31"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="21"/>
+										<UML:TaggedValue tag="ea_localid" value="996"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={4090649B-F9C3-483b-9F6B-870B87CE5810}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={67E4076B-DE41-41ca-B7F5-CF9518146069}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness1" xmi.id="EAID_69CAB2C3_EF75_4b2a_9D0F_670CA07A9A19" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:59"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:25"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="991"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={A26A2B1A-53B2-4c77-A5A2-AFE3A10995EA}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={69CAB2C3-EF75-4b2a-9D0F-670CA07A9A19}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness8" xmi.id="EAID_862DA4A5_7A30_42c5_96A2_44537497B406" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:33:04"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:36"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="23"/>
+										<UML:TaggedValue tag="ea_localid" value="998"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1584985B-932D-44de-894A-58DFAEA7A074}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={862DA4A5-7A30-42c5-96A2-44537497B406}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness2" xmi.id="EAID_C54A46CE_33DF_4615_BCA6_1D90760356B4" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:32:00"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:27"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="992"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={54F61B35-5FD5-470c-B3EA-70E8C67CCAA7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={C54A46CE-33DF-4615-BCA6-1D90760356B4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness5" xmi.id="EAID_D5C4EB1F_A515_4dc6_80F2_8CD563427CC7" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:32:53"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:33"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="20"/>
+										<UML:TaggedValue tag="ea_localid" value="995"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={0474D5B1-9650-4a5a-8CFE-88E04CA285D3}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={D5C4EB1F-A515-4dc6-80F2-8CD563427CC7}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness9" xmi.id="EAID_DF7AF78D_33D4_4254_94C2_F75E6A3178F3" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:33:06"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="24"/>
+										<UML:TaggedValue tag="ea_localid" value="999"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={7635BDF8-A29C-4bb8-9D5A-DA60ACFC9584}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={DF7AF78D-33D4-4254-94C2-F75E6A3178F3}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Weakness10" xmi.id="EAID_FF690B55_B5B6_4a72_A9A4_558C46108B1A" visibility="public" namespace="EAPK_FB56388A_99C9_46a8_9723_D4C845194316" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Weakness"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_FB56388A_99C9_46a8_9723_D4C845194316"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:36:24"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:29:44"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Weaknesses"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Weakness"/>
+										<UML:TaggedValue tag="tpos" value="25"/>
+										<UML:TaggedValue tag="ea_localid" value="1003"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1A72DADD-0887-4738-A333-0006E279370A}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Weakness;FQName=Six Sigma LEAN Tool Kit::Weakness;@ENDSTEREO;$DES;$CLT={FF690B55-B5B6-4a72-A9A4-558C46108B1A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Opportunity" xmi.id="EAPK_B46F6535_2632_4e5b_A759_50E348560090" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Opportunities:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;What strengths can you exploit to increase your competitive advantage?&lt;/li&gt;&#xA;	&lt;li&gt;What is happening in education that might be a good opportunity for the school?&lt;/li&gt;&#xA;	&lt;li&gt;What opportunities might technology give us?&lt;/li&gt;&#xA;	&lt;li&gt;What are the unique elements in our community that might provide opportunities?&lt;/li&gt;&#xA;	&lt;li&gt;What is missing from the school! community that might be an opportunity for US?&lt;/li&gt;&#xA;	&lt;li&gt;What weaknesses might we eliminate to create opportunities?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Identifying opportunities provides information that allows you exploit conditions within your school or community."/>
+								<UML:TaggedValue tag="parent" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="created" value="2021-02-07 13:19:50"/>
+								<UML:TaggedValue tag="modified" value="2021-02-07 20:52:56"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Opportunity2" xmi.id="EAID_25A3FE62_58D8_4fe4_92CC_41BC0C3DF32B" visibility="public" namespace="EAPK_B46F6535_2632_4e5b_A759_50E348560090" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Opportunity"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B46F6535_2632_4e5b_A759_50E348560090"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:30:06"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:28:39"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Opportunity"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Opportunity"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="977"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D1C17E5E-30A2-4d67-8AAB-DB411FC67EA4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Opportunity;FQName=Six Sigma LEAN Tool Kit::Opportunity;@ENDSTEREO;$DES;$CLT={25A3FE62-58D8-4fe4-92CC-41BC0C3DF32B}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Opportunity1" xmi.id="EAID_4D9DA8CF_2EEB_4093_9E20_839840388171" visibility="public" namespace="EAPK_B46F6535_2632_4e5b_A759_50E348560090" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Opportunity"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B46F6535_2632_4e5b_A759_50E348560090"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:28:51"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:28:38"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Opportunity"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Opportunity"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="976"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={534D4386-9769-4106-B143-08696A85028F}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Opportunity;FQName=Six Sigma LEAN Tool Kit::Opportunity;@ENDSTEREO;$DES;$CLT={4D9DA8CF-2EEB-4093-9E20-839840388171}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Opportunity3" xmi.id="EAID_57CAEB45_4ED0_4575_B509_4E29F6D16CA2" visibility="public" namespace="EAPK_B46F6535_2632_4e5b_A759_50E348560090" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Opportunity"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B46F6535_2632_4e5b_A759_50E348560090"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:30:52"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:28:41"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Opportunity"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Opportunity"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="978"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={67B6B2D9-BCB9-494c-8E77-1F81E66C95F2}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Opportunity;FQName=Six Sigma LEAN Tool Kit::Opportunity;@ENDSTEREO;$DES;$CLT={57CAEB45-4ED0-4575-B509-4E29F6D16CA2}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Opportunity4" xmi.id="EAID_7A4F96CE_CF3C_420b_9B0B_141DF86F9CE4" visibility="public" namespace="EAPK_B46F6535_2632_4e5b_A759_50E348560090" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Opportunity"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B46F6535_2632_4e5b_A759_50E348560090"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:01"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:28:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Opportunity"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Opportunity"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="979"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B1409205-71A8-45c9-B7E8-772B111681D7}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Opportunity;FQName=Six Sigma LEAN Tool Kit::Opportunity;@ENDSTEREO;$DES;$CLT={7A4F96CE-CF3C-420b-9B0B-141DF86F9CE4}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Opportunity5" xmi.id="EAID_AF306978_003E_4f06_8F00_675246DFDC90" visibility="public" namespace="EAPK_B46F6535_2632_4e5b_A759_50E348560090" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Opportunity"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_B46F6535_2632_4e5b_A759_50E348560090"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:03"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:28:51"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Opportunity"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Opportunity"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="980"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={CC716857-8C24-45f6-91FF-EB5566A0D9EF}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Opportunity;FQName=Six Sigma LEAN Tool Kit::Opportunity;@ENDSTEREO;$DES;$CLT={AF306978-003E-4f06-8F00-675246DFDC90}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Threats" xmi.id="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Threats:&#xA;&lt;ol&gt;&#xA;	&lt;li&gt;Are there any threats to the school community that might affect viability (e.g. financial, infrastructure,&lt;/li&gt;&#xA;	&lt;li&gt;things your competition is doing)?&lt;/li&gt;&#xA;	&lt;li&gt;What dangers might the school be exposed to because of changes to government policy?&lt;/li&gt;&#xA;	&lt;li&gt;What risks/ obstacles do you face?&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&#xA;Identifying threats helps you to manage and/or eliminate things that may endanger your school operations."/>
+								<UML:TaggedValue tag="parent" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+								<UML:TaggedValue tag="created" value="2021-02-07 13:19:20"/>
+								<UML:TaggedValue tag="modified" value="2021-02-07 20:53:54"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Dan Menoher"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="Threat4" xmi.id="EAID_05893F96_E57E_484d_A4E2_6C07C039EB65" visibility="public" namespace="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Threat"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:33:19"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:30:32"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Threats"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Threat"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="1001"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={042B95C1-FA20-4d0f-AEDE-26F2D1C33495}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Threat;FQName=Six Sigma LEAN Tool Kit::Threat;@ENDSTEREO;$DES;$CLT={05893F96-E57E-484d-A4E2-6C07C039EB65}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Threat5" xmi.id="EAID_6EFF6108_E6E2_4d7f_8FE7_427EE3F5FEF6" visibility="public" namespace="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Threat"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:33:21"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:30:34"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Threats"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Threat"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="1002"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={D2C359ED-5240-42a7-90B0-AF4CE7DFE8AD}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Threat;FQName=Six Sigma LEAN Tool Kit::Threat;@ENDSTEREO;$DES;$CLT={6EFF6108-E6E2-4d7f-8FE7-427EE3F5FEF6}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Threat3" xmi.id="EAID_81F89B94_9331_456c_B337_63D5C940FF00" visibility="public" namespace="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Threat"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:33:11"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:30:29"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Threats"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Threat"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="1000"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={ECFC1057-CC1A-428c-B74A-C06ACB1727B4}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Threat;FQName=Six Sigma LEAN Tool Kit::Threat;@ENDSTEREO;$DES;$CLT={81F89B94-9331-456c-B337-63D5C940FF00}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Threat2" xmi.id="EAID_878D90B6_2355_44a3_A2A4_5C317E70BC2A" visibility="public" namespace="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Threat"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:13"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:30:25"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Threats"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Threat"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="982"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={FD141CF4-7FB5-47ac-AC43-531615402905}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Threat;FQName=Six Sigma LEAN Tool Kit::Threat;@ENDSTEREO;$DES;$CLT={878D90B6-2355-44a3-A2A4-5C317E70BC2A}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Class name="Threat1" xmi.id="EAID_BEE007E2_6569_4939_8E8A_3120632AABCB" visibility="public" namespace="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="Threat"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&lt;b&gt;&lt;u&gt;DESCRIPTION&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;&lt;b&gt;&lt;u&gt;CONTEXT&lt;/u&gt;&lt;/b&gt;&#xA;&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C"/>
+										<UML:TaggedValue tag="date_created" value="2021-02-07 20:31:09"/>
+										<UML:TaggedValue tag="date_modified" value="2021-05-17 20:30:23"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Threats"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Dan Menoher"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="Threat"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="981"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={E6D3CAF6-41C1-4fd7-876A-091E4FE0109D}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=Threat;FQName=Six Sigma LEAN Tool Kit::Threat;@ENDSTEREO;$DES;$CLT={BEE007E2-6569-4939-8E8A-3120632AABCB}$CLT;$SUP=&lt;none&gt;$SUP;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:Diagram name="SWOT" xmi.id="EAID_38995D8C_10B9_48d2_88CF_6CADCD24D530" diagramType="CustomDiagram" owner="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="1.0"/>
+				<UML:TaggedValue tag="author" value="Dan Menoher"/>
+				<UML:TaggedValue tag="created_date" value="2021-02-06 19:16:01"/>
+				<UML:TaggedValue tag="modified_date" value="2021-05-17 20:34:02"/>
+				<UML:TaggedValue tag="package" value="EAPK_4D737BB0_0D23_42dc_9E44_8A52CE2507CB"/>
+				<UML:TaggedValue tag="type" value="Custom"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;SwimlaneFont=lfh:-26,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="133"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=0;PPgs.cy=0;DocSize.cx=827;DocSize.cy=1075;ShowDetails=0;Orientation=P;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=1;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;ShowShape=1;AllDockable=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=8B723217;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Six Sigma LEAN Tool Kit::SWOT Analysis;STBLDgm=;ShowNotes=0;OPTIONS_BCB10A32=CDS=1:;OPTIONS_86CA4FAB=CDS=1:SSJ=12:;OPTIONS_88687307=CDS=1:SSJ=12:;OPTIONS_6A479DD0=CDS=1:SSJ=12:;OPTIONS_747DD882=CDS=1:SSJ=12:;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+				<UML:TaggedValue tag="$ea_hlinksclassified" value="{31658CC7-5A8B-4335-8DF5-07F4F0F7D58C}"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=636;Top=585;Right=826;Bottom=635;" subject="EAID_FF690B55_B5B6_4a72_A9A4_558C46108B1A" seqno="1" style="DUID=ABF7CDC3;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=435;Top=994;Right=819;Bottom=1044;" subject="EAID_6EFF6108_E6E2_4d7f_8FE7_427EE3F5FEF6" seqno="2" style="DUID=74852DFF;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=435;Top=924;Right=819;Bottom=974;" subject="EAID_05893F96_E57E_484d_A4E2_6C07C039EB65" seqno="3" style="DUID=A2E7E7BC;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=435;Top=854;Right=819;Bottom=904;" subject="EAID_81F89B94_9331_456c_B337_63D5C940FF00" seqno="4" style="DUID=509267E0;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=428;Top=585;Right=618;Bottom=635;" subject="EAID_DF7AF78D_33D4_4254_94C2_F75E6A3178F3" seqno="5" style="DUID=2A626A46;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=637;Top=513;Right=827;Bottom=563;" subject="EAID_862DA4A5_7A30_42c5_96A2_44537497B406" seqno="6" style="DUID=A75E8602;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=428;Top=513;Right=618;Bottom=563;" subject="EAID_41E02A51_2860_4e70_A35F_0FD6CD029D05" seqno="7" style="DUID=EB5CBC38;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=636;Top=441;Right=826;Bottom=491;" subject="EAID_67E4076B_DE41_41ca_B7F5_CF9518146069" seqno="8" style="DUID=4C441E4F;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=428;Top=441;Right=618;Bottom=491;" subject="EAID_D5C4EB1F_A515_4dc6_80F2_8CD563427CC7" seqno="9" style="DUID=DACE58E9;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=636;Top=370;Right=826;Bottom=420;" subject="EAID_4F410CBB_C297_45ef_A940_C0C50EE0C870" seqno="10" style="DUID=897AF4AD;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=431;Top=369;Right=621;Bottom=419;" subject="EAID_00C9360F_FA1D_411c_87F2_6843FABC420E" seqno="11" style="DUID=21357601;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=636;Top=297;Right=826;Bottom=347;" subject="EAID_C54A46CE_33DF_4615_BCA6_1D90760356B4" seqno="12" style="DUID=B9AD1D8E;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=428;Top=297;Right=618;Bottom=347;" subject="EAID_69CAB2C3_EF75_4b2a_9D0F_670CA07A9A19" seqno="13" style="DUID=7D30262D;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=208;Top=585;Right=398;Bottom=635;" subject="EAID_F1B4830C_ED8B_4f37_B062_310F34D83AC3" seqno="14" style="DUID=712CEDCD;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=2;Top=585;Right=192;Bottom=635;" subject="EAID_1C565A49_464A_45ef_827E_C5CD1D6DC811" seqno="15" style="DUID=6DEF3D44;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=208;Top=513;Right=398;Bottom=563;" subject="EAID_CDDF78FD_04FE_4854_8CCD_65300199FA6E" seqno="16" style="DUID=915B9820;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=513;Right=190;Bottom=563;" subject="EAID_78CB6509_3EED_476e_8BC2_6C16D262EB26" seqno="17" style="DUID=556F2F60;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=206;Top=441;Right=396;Bottom=491;" subject="EAID_405D0CB6_7A35_4a29_87DB_7058A51B5C0A" seqno="18" style="DUID=5E6C0CB1;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=441;Right=190;Bottom=491;" subject="EAID_95C3E62E_96D4_49b9_8A8D_C22235B4D1FF" seqno="19" style="DUID=807E7044;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=208;Top=369;Right=398;Bottom=419;" subject="EAID_A9210D8D_F91B_48ec_A11B_4B2C39CD834D" seqno="20" style="DUID=F5F2CC22;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=2;Top=369;Right=192;Bottom=419;" subject="EAID_85013C79_DE07_49fc_B4F0_9B1258AF355A" seqno="21" style="DUID=CD242221;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=435;Top=784;Right=819;Bottom=834;" subject="EAID_878D90B6_2355_44a3_A2A4_5C317E70BC2A" seqno="22" style="DUID=871FE91C;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=435;Top=714;Right=819;Bottom=764;" subject="EAID_BEE007E2_6569_4939_8E8A_3120632AABCB" seqno="23" style="DUID=BE3A111A;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=9;Top=994;Right=393;Bottom=1044;" subject="EAID_AF306978_003E_4f06_8F00_675246DFDC90" seqno="24" style="DUID=9DF43DEB;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=9;Top=924;Right=393;Bottom=974;" subject="EAID_7A4F96CE_CF3C_420b_9B0B_141DF86F9CE4" seqno="25" style="DUID=F237B95D;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=9;Top=854;Right=393;Bottom=904;" subject="EAID_57CAEB45_4ED0_4575_B509_4E29F6D16CA2" seqno="26" style="DUID=428370E8;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=9;Top=784;Right=393;Bottom=834;" subject="EAID_25A3FE62_58D8_4fe4_92CC_41BC0C3DF32B" seqno="27" style="DUID=EBADDFC7;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=6;Top=713;Right=390;Bottom=763;" subject="EAID_4D9DA8CF_2EEB_4093_9E20_839840388171" seqno="28" style="DUID=87517E5F;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=208;Top=298;Right=398;Bottom=347;" subject="EAID_7E688977_F05A_4988_B68C_40AD680417E0" seqno="29" style="DUID=102AB7F7;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=297;Right=190;Bottom=347;" subject="EAID_34EE109F_EBF8_49ab_A1E8_4C426011F392" seqno="30" style="DUID=A22163DB;HideIcon=0;font=Calibri;fontsz=110;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=668;Right=409;Bottom=1074;" subject="EAID_B46F6535_2632_4e5b_A759_50E348560090" seqno="31" style=" DUID=747DD882;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;font=Calibri;bold=1;pitch=34;BCol=16777193;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=425;Top=668;Right=834;Bottom=1074;" subject="EAID_8A096FAC_8198_4c40_ABC3_EC5AB55A7F9C" seqno="32" style=" DUID=6A479DD0;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;font=Calibri;bold=1;pitch=34;BCol=15329791;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=424;Top=249;Right=833;Bottom=655;" subject="EAID_FB56388A_99C9_46a8_9723_D4C845194316" seqno="33" style=" DUID=88687307;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;font=Calibri;bold=1;pitch=34;BCol=14148862;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=0;Top=250;Right=409;Bottom=656;" subject="EAID_A1267DB1_1F3F_45db_9665_AF3BF0F94E5A" seqno="34" style=" DUID=86CA4FAB;NSL=0;BFol=-1;LCol=-1;LWth=-1;black=0;italic=0;ul=0;charset=0;font=Calibri;bold=1;pitch=34;BCol=16449525;fontsz=160;"/>
+				<UML:DiagramElement geometry="Left=0;Top=65;Right=824;Bottom=238;" subject="EAID_1824ECE6_D46C_4cf9_A4DA_A162F97F36CC" seqno="35" style="DUID=2A4F1FB8;font=Calibri;fontsz=120;bold=0;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=213;Top=3;Right=453;Bottom=54;" subject="EAID_1F381CF9_AA71_4de7_BBD3_969EF41C1463" seqno="36" style="DUID=583CE1FE;font=Calibri;fontsz=260;bold=1;black=0;italic=0;ul=0;charset=0;pitch=34;"/>
+				<UML:DiagramElement geometry="Left=0;Top=0;Right=826;Bottom=55;" subject="EAID_FE7E18C3_6D95_4ec3_9634_154FFDEC9183" seqno="37" style="DUID=BCB10A32;BCol=14480885;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5"/>
+</XMI>

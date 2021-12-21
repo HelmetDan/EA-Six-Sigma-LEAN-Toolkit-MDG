@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="9C5E902E-C" name="Six Sigma LEAN Tool Kit" version="0.0.5" notes="This is the Six Sigma Lean Tool Box"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="Fishbone" notes="Fishbone Cause and Effect Toolbox" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Six Sigma LEAN Tool Kit::Bottom Bone(UML::Class)" type="" description="" unit="" values="" default="Extra Bottom Bone"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Cause Category(UML::Class)" type="" description="" unit="" values="" default="Cause Category"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Cause Contributer(UML::Class)" type="" description="" unit="" values="" default="Cause Contributer"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Cause(UML::Class)" type="" description="" unit="" values="" default="Cause"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Effect(UML::Realization)" type="" description="" unit="" values="" default="Effect"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Hypothesis(UML::Class)" type="" description="" unit="" values="" default="Hypothesis"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Problem(UML::Package)" type="" description="" unit="" values="" default="Problem"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Top Bone(UML::Class)" type="" description="" unit="" values="" default="Extra Top Bone"/>
+					<Tag name="UML::Association" type="" description="" unit="" values="" default="Association"/>
+					<Tag name="UML::Dependency" type="" description="" unit="" values="" default="Dependency"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Improvement Brainstorm" notes="Improvement Brainstorm" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Six Sigma LEAN Tool Kit::Delta(UML::Class)" type="" description="" unit="" values="" default="Delta"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Gap(UML::Class)" type="" description="" unit="" values="" default="Gap"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Initive(UML::Class)" type="" description="" unit="" values="" default="Initive"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Pain(UML::Class)" type="" description="" unit="" values="" default="Pain"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Plus(UML::Class)" type="" description="" unit="" values="" default="Plus"/>
+					<Tag name="UML::Abstraction" type="" description="" unit="" values="" default="Abstraction"/>
+					<Tag name="UML::Association" type="" description="" unit="" values="" default="Association"/>
+					<Tag name="UML::Dependency" type="" description="" unit="" values="" default="Dependency"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="RCA Observation Diagram" notes="Observation Diagram" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Six Sigma LEAN Tool Kit::Central Topic(UML::Class)" type="" description="" unit="" values="" default="Central Topic"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Effect(UML::Realization)" type="" description="" unit="" values="" default="Effect"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Main Topic(UML::Class)" type="" description="" unit="" values="" default="Main Topic"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Observation(UML::Class)" type="" description="" unit="" values="" default="Observation"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Subtopic(UML::Text)" type="" description="" unit="" values="" default="Subtopic"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Topic(UML::Class)" type="" description="" unit="" values="" default="Topic"/>
+					<Tag name="UML::Association" type="" description="" unit="" values="" default="Association"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Stakeholder Analysis" notes="This is the stakeholder analysis diagram" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Six Sigma LEAN Tool Kit::Concern(UML::Class)" type="" description="" unit="" values="" default="Concern"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Owns(UML::Association)" type="" description="" unit="" values="" default="Owns"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Responsibility(UML::Class)" type="" description="" unit="" values="" default="Responsibility"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Stakeholder Need(UML::Requirement)" type="" description="" unit="" values="" default="Stakeholder Need"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Stakeholder(UML::Actor)" type="" description="" unit="" values="" default="Stakeholder"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Steakholder Goal(UML::UseCase)" type="" description="" unit="" values="" default="Steakholder Goal"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="SWOT Toolbox" notes="This is the SWOT Toolbox" cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Six Sigma LEAN Tool Kit::Opportunity(UML::Class)" type="" description="" unit="" values="" default="Opportunity"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Strength(UML::Class)" type="" description="" unit="" values="" default="Strength"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Threat(UML::Class)" type="" description="" unit="" values="" default="Threat"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Weakness(UML::Class)" type="" description="" unit="" values="" default="Weakness"/>
+					<Tag name="UML::Object" type="" description="" unit="" values="" default="Object"/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="Vision and Scope" notes="This toolbox page has elements to help define a vision and scope around the realization of that vision." cx="0" cy="0" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="Six Sigma LEAN Tool Kit::Business Goal(UML::Class)" type="" description="" unit="" values="" default="Business Goal"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Initive(UML::Class)" type="" description="" unit="" values="" default="Initive"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Market Theme(UML::Class)" type="" description="" unit="" values="" default="Market Theme"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Problem(UML::Class)" type="" description="" unit="" values="" default="Problem"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Technical Objective(UML::Class)" type="" description="" unit="" values="" default="Technical Objective"/>
+					<Tag name="Six Sigma LEAN Tool Kit::Vision(UML::Class)" type="" description="" unit="" values="" default="Vision"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+		<ViewDefinitions/>
+		<Metamodel/>
+	</Content>
+</UMLProfile>
